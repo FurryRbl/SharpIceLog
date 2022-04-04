@@ -1,0 +1,31 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <NoWin32Manifest>true</NoWin32Manifest>
+    <DebugType>embedded</DebugType>
+    <ProduceReferenceAssembly>False</ProduceReferenceAssembly>
+    <GenerateDocumentationFile>False</GenerateDocumentationFile>
+    <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+    <Company>SharpIce</Company>
+    <Authors>SharpIce</Authors>
+    <Description>SharpIce开发的轻量级控制台日志框架</Description>
+    <Copyright>MIT</Copyright>
+    <PackageProjectUrl>https://github.com/FurryRbl/SharpIceLog</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/FurryRbl/SharpIceLog</RepositoryUrl>
+    <RepositoryType>git</RepositoryType>
+    <PackageTags>SharpIce,Log</PackageTags>
+    <PackageReleaseNotes>一个轻量级日志框架</PackageReleaseNotes>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="..\README.md">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+  </ItemGroup>
+
+</Project>
