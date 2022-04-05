@@ -16,9 +16,12 @@
     <PackageProjectUrl>https://github.com/FurryRbl/SharpIceLog</PackageProjectUrl>
     <RepositoryUrl>https://github.com/FurryRbl/SharpIceLog</RepositoryUrl>
     <RepositoryType>git</RepositoryType>
-    <PackageTags>SharpIce,Log</PackageTags>
-    <PackageReleaseNotes>一个轻量级日志框架</PackageReleaseNotes>
+    <PackageTags>SharpIce;Log</PackageTags>
+    <PackageReleaseNotes>修复部分错误，优化代码</PackageReleaseNotes>
     <PackageReadmeFile>README.md</PackageReadmeFile>
+    <AssemblyVersion>1.0.1</AssemblyVersion>
+    <FileVersion>1.0.1</FileVersion>
+    <Version>1.0.1</Version>
   </PropertyGroup>
 
   <ItemGroup>
