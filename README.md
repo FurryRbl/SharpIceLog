@@ -2,13 +2,25 @@
 
 ## 许可证
 
-采用MIT分发
+采用[MIT](https://github.com/FurryRbl/SharpIceLog/blob/main/LICENSE)分发
 
 ## 使用
 
-从此处下载最新dll： <https://github.com/FurryRbl/SharpIceLog/release>
+### 安装方法1
+
+[从此处下载最新dll](https://github.com/FurryRbl/SharpIceLog/releases)
 
 在你的项目中引用下载的dll
+
+### 安装方法2
+
+在NuGet包管理中搜索SharpIceLog并安装,或使用安装命令
+
+``` bash
+Install-Package SharpIceLog
+```
+
+### 在项目使用
 
 在代码中引用
 
